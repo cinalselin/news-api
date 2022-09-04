@@ -1,4 +1,4 @@
-let secretKey;
+let secretKey = config.SECRET_KEY;
 
 //  if the user does not pass on any values, use values from parameter
 let newsArticle = (

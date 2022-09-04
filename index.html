@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super(code) News</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <h1>News By <span class="super">Super(<span class="code">code</span>)</span> </h1>
+    <form>
+        <input type="text" id="search" placeholder="Suchbegriff z.B Tesla">
+
+        <select name="language" id="language">
+            <option value="en">Englisch</option>
+            <option value="de">Deutsch</option>
+        </select>
+        <select name="sortBy" id="sortBy">
+            <option value="publishedAt">Erscheinungsdatum</option>
+            <option value="popularity">Popularität</option>
+        </select>
+        <input type="submit" id="submitBtn" value="suchen">
+    </form>
+    <section id="newsContainer"></section>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
